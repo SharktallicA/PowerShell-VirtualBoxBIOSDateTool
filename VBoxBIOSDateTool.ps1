@@ -13,7 +13,7 @@
         provide GUI-based options for modifying the virtual machine's
         system (or BIOS/UEFI) date. Unlike the simple methods for doing so
         for VMware and Virtual PC VMs, VirtualBox requires you call an executable
-        to pass in the offset for the BIOS date (related to host system date) in 
+        to pass in the offset for the BIOS date (relative to host system date) in 
         milliseconds. This script aims to automate this process a bit to make it
         quicker and more accessible.
 
