@@ -33,7 +33,7 @@ $vmName = Read-Host "Enter VirtualBox virtual machine name"
 
 # Calculate
 $startDate = (GET-DATE)
-$endDate = [DateTime]"$targetMonth/$targetDay/$targetYear 00:00"
+$endDate = [DateTime]"$targetDay/$targetMonth/$targetYear 00:00"
 $dateDiff = New-TimeSpan –Start $startDate –End $endDate
 $msDiff = [Math]::Round($dateDiff.TotalMilliseconds)
 
